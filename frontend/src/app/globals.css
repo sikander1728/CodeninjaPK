@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: '𝖭𝖾𝗎𝖾 𝖬𝗈𝗇𝗍𝗋𝖾𝖺𝗅';
+  src: url("/fonts/NeueMontreal/NeueMontreal-Bold.woff");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.cn-header-fluid-container {
+  padding: 0 5%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.cn-fluid-container {
+  padding: 5% 5%;
+}
+
+h1 {
+  @apply lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-medium
+}
+
+h2 {
+  @apply font-medium;
+  font-size: 2rem;
+}
+
+h3 {
+  @apply font-medium text-2xl
 }

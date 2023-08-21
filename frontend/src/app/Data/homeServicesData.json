@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "../images/monitor-code.svg",
+        "alttext": "development",
+        "title": "Software Development",
+        "description": "Transforming visions into powerful solutions. Unleash your digital potential with our experts."
+    },
+    {
+        "icon": "../images/application.svg",
+        "alttext": "application",
+        "title": "Application Development",
+        "description": "Empower your business with exceptional solutions for seamless success!"
+    },
+    {
+        "icon": "../images/testing.svg",
+        "alttext": "testing",
+        "title": "Testing & QA",
+        "description": "Ensure flawless performance and unparalleled quality with our comprehensive Testing & QA!"
+    },
+    {
+        "icon": "../images/ux.svg",
+        "alttext": "ux/ui",
+        "title": "UI/UX Design",
+        "description": "Elevate user experiences to new heights with captivating UI/UX design solutions!"
+    },
+    {
+        "icon": "../images/consulting.svg",
+        "alttext": "consultation",
+        "title": "Software Consulting",
+        "description": "Navigate the complexities of software solutions with proven expertise and strategies."
+    },
+    {
+        "icon": "../images/analytics.svg",
+        "alttext": "analysis",
+        "title": "Data Analytics",
+        "description": "Transform your data into actionable insights with cutting-edge data analytics solutions!"
+    },
+    {
+        "icon": "../images/ecommerce.svg",
+        "alttext": "ecommerce",
+        "title": "E-Commerce Development",
+        "description": "Drive Online Success and Boost Sales with Tailor-Made Ecommerce Development Solutions!"
+    },
+    {
+        "icon": "../images/truck.svg",
+        "alttext": "fleet",
+        "title": "Fleet Management",
+        "description": "Streamline and Optimize Your Fleet Operations with Efficient Fleet Management Solutions!"
+    }
+]

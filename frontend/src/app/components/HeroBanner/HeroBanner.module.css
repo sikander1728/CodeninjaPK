@@ -1,0 +1,6 @@
+.banner_background_code{
+    background-image: url('/images/banner-background.svg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 750px auto;
+}
