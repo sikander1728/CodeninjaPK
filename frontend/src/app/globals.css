@@ -5,6 +5,11 @@
 @font-face {
   font-family: '𝖭𝖾𝗎𝖾 𝖬𝗈𝗇𝗍𝗋𝖾𝖺𝗅';
   src: url("/fonts/NeueMontreal/NeueMontreal-Bold.woff");
+  src: url("/fonts/NeueMontreal/NeueMontreal-Bold.woff2");
+  src: url("/fonts/NeueMontreal/NeueMontreal-Medium.woff");
+  src: url("/fonts/NeueMontreal/NeueMontreal-Medium.woff2");
+  src: url("/fonts/NeueMontreal/NeueMontreal-Regular.woff");
+  src: url("/fonts/NeueMontreal/NeueMontreal-Regular.woff2");
 }
 
 .cn-header-fluid-container {
@@ -21,9 +26,16 @@ h1 {
 
 h2 {
   @apply font-medium;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  @apply font-medium text-2xl
+  @apply font-medium;
+  font-size: 2rem;
+}
+h4{
+  @apply text-2xl font-medium;
+}
+a{
+  @apply text-2xl font-medium
 }
