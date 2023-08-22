@@ -21,7 +21,7 @@ const HeroBanner = () => {
                    bg-stone-dark px-12 py-5 text-3xl font-semibold text-white
                    hover:text-primary shadow-sm hover:bg-white border
                    hover:border hover:border-primary transition duration-500 ease-in-out font-primary">
-                        <span>Let's work together</span>
+                        <span>Let&apos;s work together</span>
 
                         <span className="pl-14">
                             <svg
