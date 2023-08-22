@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesCard from '../ServicesCard/ServicesCard'
-import techFieldsData from "@/app/Data/techFieldsData.json"
+// import techFieldsData from "@/app/Data/techFieldsData.json"
 
 function TechFields() {
   const fieldArray = [
@@ -13,11 +13,11 @@ function TechFields() {
         Transformative Tech Fields
         </h2>
         <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8'>
-            {
+            {/* {
                 techFieldsData?.map((data, index) => (
                     <ServicesCard key={index} item={data} />
                 ))
-            }
+            } */}
         </div>
 
     </section>
